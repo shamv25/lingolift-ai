@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LingoLift AI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+
+        <div class="logo">
+            📘
+        </div>
+
+        <div class="title">
+            <h2>LingoLift AI</h2>
+            <p>Learn English. Build Confidence.</p>
+        </div>
+
+    </div>
+
+    <div id="chatMessages" class="chat-messages">
+
+    </div>
+
+    <div class="suggestions">
+
+        <button class="chip">
+            👋 Greetings
+        </button>
+
+        <button class="chip">
+            📚 Vocabulary
+        </button>
+
+        <button class="chip">
+            ✍ Grammar
+        </button>
+
+        <button class="chip">
+            💬 Conversation
+        </button>
+
+    </div>
+
+    <div class="chat-input">
+
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Ask me anything in English..."
+        >
+
+        <button id="sendBtn">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="22"
+                 height="22"
+                 fill="white"
+                 viewBox="0 0 16 16">
+
+                <path d="M15.854.146a.5.5 0 0 0-.527-.12l-15 6a.5.5 0 0 0 .017.936l5.856 1.952 1.952 5.856a.5.5 0 0 0 .936.017l6-15a.5.5 0 0 0-.234-.641Z"/>
+
+            </svg>
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
